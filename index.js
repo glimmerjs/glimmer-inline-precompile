@@ -11,7 +11,7 @@ module.exports = {
     let plugins = options.babel.plugins = options.babel.plugins || [];
 
     if (!plugins.find(tuple => tuple[0].name === 'glimmer-inline-precompile')) {
-      options.babel.plugins.push([require('babel-plugin-glimmer-inline-precompile')]);
+      options.babel.plugins.push([require('babel-plugin-glimmer-inline-precompile'), { importPath: '@glimmer/inline-precompile' }]);
     }
   },
 };
