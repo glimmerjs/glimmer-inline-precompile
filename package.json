@@ -1,0 +1,41 @@
+{
+  "name": "@glimmer/inline-precompile",
+  "version": "1.1.0",
+  "description": "Use tagged template strings to precompile glimmer templates inside your JS files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "qunit test.js"
+  },
+  "keywords": [
+    "babel-plugin",
+    "ember-addon"
+  ],
+  "ember-addon": {
+    "main": "ember-addon-main.js"
+  },
+  "author": "Robert Jackson <me@rwjblue.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@glimmer/compiler": "^0.26.2",
+    "babel-core": "^6.25.0",
+    "qunit-eslint": "^1.0.0",
+    "qunitjs": "^2.3.3"
+  },
+  "peerDependencies": {
+    "@glimmer/compiler": "> 0.23.0 || > 0.24.0-alpha.1 || > 0.25.0-alpha.1"
+  },
+  "dependencies": {
+    "babel-plugin-glimmer-inline-precompile": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile/issues"
+  },
+  "homepage": "https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
