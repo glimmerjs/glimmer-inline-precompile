@@ -1,6 +1,6 @@
 {
   "name": "@glimmer/inline-precompile",
-  "version": "1.1.0",
+  "version": "0.0.0",
   "description": "Use tagged template strings to precompile glimmer templates inside your JS files.",
   "main": "index.js",
   "scripts": {
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile.git"
+    "url": "git+https://github.com/glimmerjs/glimmer-inline-precompile.git"
   },
   "bugs": {
-    "url": "https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile/issues"
+    "url": "https://github.com/glimmerjs/glimmer-inline-precompile/issues"
   },
-  "homepage": "https://github.com/glimmerjs/babel-plugin-glimmer-inline-precompile#readme",
+  "homepage": "https://github.com/glimmerjs/glimmer-inline-precompile#readme",
   "publishConfig": {
     "access": "public"
   }
