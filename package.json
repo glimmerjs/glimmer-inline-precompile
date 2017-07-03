@@ -10,9 +10,6 @@
     "babel-plugin",
     "ember-addon"
   ],
-  "ember-addon": {
-    "main": "ember-addon-main.js"
-  },
   "author": "Robert Jackson <me@rwjblue.com>",
   "license": "MIT",
   "devDependencies": {
